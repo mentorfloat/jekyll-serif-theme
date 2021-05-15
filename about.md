@@ -1,52 +1,33 @@
 ---
-title: 'About'
-date: 2018-02-22T17:01:34+07:00
+title: 'Why TakeSub?'
+date: 2021-05-15T17:01:34+07:00
 layout: page
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+We can be too busy with our lives sometimes and not have time to cook every single day.
 
-## Ne verba patulosque numen vix libet
+Imagine having access to ready-meals prepared by the same chefs that you love from your local restaurants, at home, whenever you need it.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+## Eating well can be easy and cheap
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+You don't have to sacrifice time, money and effort to eat well throughout the week.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+You can take heart in knowing that our meals are cooked by real chefs and the menu is carefully selected to achieve a nutritious and balanced diet.
 
-## Postquam tamen
+No more meal-prep Sundays or expensive delivery fees every day!
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+Our partnered restaurants prepare the meals in small batches and we will deliver them in a temperature-controlled box to you once a week. Talk about being efficient!
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+## Support the local restaurants that you love
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+Unlike the people from San Francisco, we don't just walk in and take from Aussie businesses.
+We partner with local restaurant owners and chefs to curate the ideal menu to suit our subscription model.
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+We approach it as a partnership.
+
+## Enjoy a delicious culinary experience, at home
+
+There's always a story behind each restaurant. Why did the restaurateur started it? What are the values and visions? They share these stories through their food.
+
+We aim to bring these amazing local stories to the community, no matter the situation around us.
