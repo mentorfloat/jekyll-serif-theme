@@ -1,12 +1,12 @@
 ---
-title: Jekyll Serif Theme
+title: TakeSub
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Subscribe to local restaurants in Melbourne and receive signature meals, cooked by real chefs, straight to your doorsteps every day.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# TakeSub - Weekly Meals From Local Restaurants.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Subscribe to local restaurants in Melbourne and receive signature meals, cooked by real chefs, straight to your doorsteps every day.
