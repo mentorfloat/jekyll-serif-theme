@@ -2,16 +2,16 @@
   {
     "title": "Subscribe & set your options.",
     "description": "There's no contract! You can get as little as 6 meals and pause whenever you like.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "image": "images/features/takesub-icon-order.svg"
   },
   {
     "title": "Receive a box of chef-cooked meals.",
     "description": "Every week we will deliver your meals in a temperature-controlled box straight to you. Say goodbye to meal-prep Sundays!",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "image": "images/features/takesub-icon-deliver.svg"
   },
   {
     "title": "Heat up & bon appetit",
     "description": "Our meals are curated by the chefs to suit so that you can experience the food that you love from your local chefs in the comfort of your home.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "image": "images/features/takesub-icon-reheat.svg"
   }
 ]

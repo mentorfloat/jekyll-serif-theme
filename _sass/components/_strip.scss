@@ -8,6 +8,10 @@
 .strip-grey {
   background-color: $white-offset;
 }
+.strip-bg {
+    background-image: url(/jekyll-serif-theme/images/illustrations/takesub-bgfood.svg);
+    background-color: #0e0e0f;
+}
 .strip-diagonal {
   transform: skewY(5deg);
   padding-bottom: 50px;
