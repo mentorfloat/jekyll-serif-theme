@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
-    "\\images\\logo",
-    "\\_data",
-    "\\_includes",
-    "\\_layouts",
-    "\\_sass"
+    "\\_layouts"
   ],
-  "SelectedNode": "\\images\\logo\\takesub-logo-white.svg",
+  "SelectedNode": "\\CNAME",
   "PreviewInSolutionExplorer": false
 }
