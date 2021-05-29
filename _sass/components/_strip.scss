@@ -9,7 +9,7 @@
   background-color: $white-offset;
 }
 .strip-bg {
-    background-image: url(/images/illustrations/takesub-bg-image1.svg);
+    background-image: url(/images/illustrations/takesub-bg-image1.png);
     background-color: white;
     height: 400px;
 }
@@ -106,6 +106,54 @@
 
 .strip-caption p {
     color: #cacbca;
+}
+
+.strip-text {
+    text-align: center;
+}
+
+.strip-text-h2 {
+    margin-bottom: 80px;
+}
+
+.strip-bgimg {
+    width:380px;
+}
+
+.strip-text span {
+    color: #ea524d;
+}
+
+.strip-text-row {
+    align-items: center;
+}
+
+.strip-text-row p {
+    max-width: 380px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strip-flairimg1 {
+    position: absolute;
+    top: 230px;
+    right: 4vw;
+    width:35px;
+}
+
+.strip-flairimg2 {
+    position: absolute;
+    bottom: -50px;
+    left: 2vw;
+    width: 180px;
+}
+
+.strip-flairimg3 {
+    position: absolute;
+    top: -50px;
+    left: 2vw;
+    width: 150px;
 }
 
 @media only screen and (max-width: 768px) {
