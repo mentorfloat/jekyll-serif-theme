@@ -2,7 +2,7 @@
     height: 100%;
     border-radius: 3px;
     padding: 20px;
-    background-color: #fff6f8d4;
+    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -10,8 +10,8 @@
 
     .feature-image {
         flex: 0 0 auto;
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
         display: flex;
         margin-bottom: 20px;
         text-align: center;
@@ -23,6 +23,7 @@
     }
 
     .feature-title {
+        font-size: 23px;
     }
 
     .feature-content {

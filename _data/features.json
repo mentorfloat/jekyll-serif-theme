@@ -1,17 +1,17 @@
 [
   {
-    "title": "Subscribe & set your options.",
-    "description": "There's no contract! You can get as little as 6 meals and pause whenever you like.",
-    "image": "images/features/takesub-icon-order.svg"
+    "title": "Customise your order online from our rotating menu.",
+    "description": "You can get as little as 5 meals per order. Pause, skip, do whatever suits!",
+    "image": "images/features/takesub-icon-order.gif"
   },
   {
     "title": "Receive a box of chef-cooked meals.",
-    "description": "Every week we will deliver your meals in a temperature-controlled box straight to you. Say goodbye to meal-prep Sundays!",
-    "image": "images/features/takesub-icon-deliver.svg"
+    "description": "We deliver weekly in a temperature-controlled transport.",
+    "image": "images/features/takesub-icon-deliver.gif"
   },
   {
     "title": "Heat up & bon appetit",
     "description": "Our meals are curated by the chefs to suit so that you can experience the food that you love from your local chefs in the comfort of your home.",
-    "image": "images/features/takesub-icon-reheat.svg"
+    "image": "images/features/takesub-icon-reheat.gif"
   }
 ]

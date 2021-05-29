@@ -9,8 +9,9 @@
   background-color: $white-offset;
 }
 .strip-bg {
-    background-image: url(/images/illustrations/takesub-bgfood.svg);
-    background-color: #0e0e0f;
+    background-image: url(/images/illustrations/takesub-bg-image1.svg);
+    background-color: white;
+    height: 400px;
 }
 .strip-diagonal {
   transform: skewY(5deg);
@@ -57,4 +58,79 @@
 
 .strip-bg-cover {
   background-size: cover;
+}
+
+.strip-center{
+    align-content:center;
+    height:400px;
+}
+
+.vid-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 28vw;
+    overflow: hidden;
+}
+
+.strip-video {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: inherit;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.strip-caption {
+    z-index: 1;
+    width: 23rem;
+    text-align: left;
+    color: white;
+    margin-left: 10vw;
+    margin-right: auto;
+    padding-left: 10px;
+    border-left-style: solid;
+    border-left-color: #E5261F;
+}
+
+.strip-caption p {
+    color: #cacbca;
+}
+
+@media only screen and (max-width: 768px) {
+    .strip-bg {
+        height: 450px;
+        background-size: cover;
+    }
+    .strip-center {
+        align-content: flex-end;
+        padding-bottom: 10px;
+        height:450px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .vid-section {
+        height: 400px;
+    }
+
+    .strip-caption {
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .vid-section {
+        justify-content: center;
+    }
 }
