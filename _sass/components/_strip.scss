@@ -126,6 +126,7 @@
 
 .strip-text-row {
     align-items: center;
+    margin-bottom:80px;
 }
 
 .strip-text-row p {
@@ -166,6 +167,14 @@
         padding-bottom: 10px;
         height:450px;
     }
+
+    .strip-flairimg2 {
+        left: 10vw;
+    }
+
+    .strip-flairimg3 {
+        left: 10vw;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -180,5 +189,23 @@
 
     .vid-section {
         justify-content: center;
+    }
+
+    .strip-bgimg {
+        width: 300px;
+    }
+
+    .strip-text-row p {
+        max-width: 280px;
+    }
+
+    .strip-flairimg2 {
+        bottom: 0px;
+        width: 100px;
+    }
+
+    .strip-flairimg3 {
+        top: -10px;
+        width: 80px;
     }
 }
