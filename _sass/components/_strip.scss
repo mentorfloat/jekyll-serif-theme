@@ -83,6 +83,18 @@
     object-fit: cover;
 }
 
+.appbg-section {
+    align-items: center;
+    display: flex;
+    height: 710px;
+    background-image: url(/images/illustrations/takesub-bg-appbg.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 10px -10px 25px rgba(0,0,0,0.6);
+    margin-bottom: 100px;
+}
+
 .overlay {
     position: absolute;
     z-index: 1;
@@ -106,6 +118,17 @@
 
 .strip-caption p {
     color: #cacbca;
+}
+
+.strip-caption2 {
+    z-index: 1;
+    width: 23rem;
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: auto;
+    padding-left: 10px;
+    border-left-style: solid;
+    border-left-color: #E5261F;
 }
 
 .strip-text {
@@ -159,13 +182,14 @@
 
 @media only screen and (max-width: 768px) {
     .strip-bg {
-        height: 450px;
+        height: 500px;
         background-size: cover;
+        background-position-x: center;
     }
     .strip-center {
         align-content: flex-end;
         padding-bottom: 10px;
-        height:450px;
+        height:500px;
     }
 
     .strip-flairimg2 {
@@ -174,6 +198,11 @@
 
     .strip-flairimg3 {
         left: 10vw;
+    }
+
+    .strip-caption2 {
+        margin-left:0px;
+        margin-right: 16px;
     }
 }
 
@@ -207,5 +236,13 @@
     .strip-flairimg3 {
         top: -10px;
         width: 80px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .strip-caption2 {
+        background-color: #ffffffcc;
+        border-end-end-radius: 50px;
+        border-start-end-radius: 10px;
     }
 }

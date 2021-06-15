@@ -17,7 +17,7 @@ You can take heart in knowing that our meals are cooked by real chefs and the me
 
 No more meal-prep Sundays or expensive delivery fees every day!
 
-Our partnered restaurants prepare the meals in small batches and we will deliver them in a temperature-controlled box to you once a week. Talk about being efficient!
+Our partnered restaurants prepare the meals in small batches and we will deliver them in a temperature-controlled box to you once a fortnight. Talk about being efficient!
 
 ## Support the local restaurants that you love
 
