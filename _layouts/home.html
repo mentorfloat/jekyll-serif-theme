@@ -64,6 +64,7 @@ bodyClass: page-home
 {% if site.data.features %}
 <div class="strip strip-white">
     <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+        <h2 class="feature-title mb-3">How Takesub Works</h2>
         <div class="row justify-content-center">
             {% for feature in site.data.features %}
             <div class="col-12 col-md-6 col-lg-4 mb-2">
@@ -71,12 +72,11 @@ bodyClass: page-home
                     {% if feature.image %}
                     <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image | relative_url }}" /></div>
                     {% endif %}
-                    <h2 class="feature-title">{{ feature.title }}</h2>
+                    <h4>{{ feature.title }}</h4>
                     <div class="feature-content">{{ feature.description }}</div>
                 </div>
             </div>
             {% endfor %}
-
         </div>
     </div>
 </div>
@@ -91,10 +91,10 @@ bodyClass: page-home
 
 <section class="strip">
     <div class="container strip-text">
-        <h2 class="strip-text-h2">TakeSub's <span>Culinary Beliefs</span></h2>
+        <h2 class="strip-text-h2">Our Culinary Beliefs</h2>
         <div class="row strip-text-row">
             <div class="col-12 col-md-6 col-lg-6 mb-2 order-lg-1 order-2">
-                <h2>Redefine <span>convenience</span> meals</h2>
+                <h3>Redefine <span>convenience</span> meals</h3>
                 <p>{{ page.belief1 }}</p>
             </div>
             <div class="col-12 col-md-6 col-lg-6 mb-2 order-lg-2 order-1">
@@ -108,13 +108,13 @@ bodyClass: page-home
                 <img class="strip-flairimg2" src="{{ page.beliefflair2 | relURL }}" />
             </div>
             <div class="col-12 col-md-6 col-lg-6 mb-2 order-lg-2 order-2">
-                <h2>Narrate <span>stories</span> behind each meal</h2>
+                <h3>Narrate <span>stories</span> behind each meal</h3>
                 <p>{{ page.belief2 }}</p>
             </div>
         </div>
         <div class="row strip-text-row">
             <div class="col-12 col-md-6 col-lg-6 mb-2 order-lg-1 order-2">
-                <h2>Empower <span>local</span> food community</h2>
+                <h3>Empower <span>local</span> food community</h3>
                 <p>{{ page.belief3 }}</p>
             </div>
             <div class="col-12 col-md-6 col-lg-6 mb-2 order-lg-2 order-1">

@@ -22,12 +22,15 @@
         height: auto;
     }
 
-    .feature-title {
-        font-size: 23px;
-    }
-
     .feature-content {
         margin-bottom: 0;
         margin-top: auto;
+        color: #5C5A5A;
+        font-size: 14px;
     }
+}
+
+.feature-title {
+    text-align: center;
+    padding-right: 5px;
 }

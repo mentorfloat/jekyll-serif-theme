@@ -17,12 +17,12 @@ You can take heart in knowing that our meals are cooked by real chefs and the me
 
 No more meal-prep Sundays or expensive delivery fees every day!
 
-Our partnered restaurants prepare the meals in small batches and we will deliver them in a temperature-controlled box to you once a fortnight. Talk about being efficient!
+Our partnered restaurants prepare the meals in small batches and we will deliver them in a temperature-controlled box to you. Talk about being efficient!
 
 ## Support the local restaurants that you love
 
 Unlike the people from San Francisco, we don't just walk in and take from Aussie businesses.
-We partner with local restaurant owners and chefs to curate the ideal menu to suit our subscription model.
+We partner with local restaurant owners and chefs to curate the ideal menu to suit the model.
 
 We approach it as a partnership.
 

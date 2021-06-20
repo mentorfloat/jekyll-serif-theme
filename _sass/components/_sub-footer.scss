@@ -34,11 +34,32 @@
         }
     }
 
+    .copyright-right {
+        font-size: 14px;
+        text-align: right;
+
+        a {
+            font-weight: bold;
+            color: #f8cecc;
+        }
+
+        p {
+            color: inherit;
+            margin-bottom: 0px;
+        }
+    }
+
     @media only screen and (max-width: 768px) {
         .copyright {
-            margin-top:10px;
-            text-align:center;
-            margin-bottom:20px;
+            margin-top: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .copyright-right {
+            margin-top: 10px;
+            text-align: center;
+            margin-bottom: 20px;
         }
     }
 

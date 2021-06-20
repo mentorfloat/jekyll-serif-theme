@@ -1,7 +1,7 @@
 ---
 title: TakeSub
 layout: home
-description: Subscribe to local restaurants in Melbourne and receive signature meals, cooked by real chefs, straight to your doorsteps every fortnight.
+description: Stock up with a box of signature meals, cooked by real chefs in Melbourne.
 intro_image: "images/illustrations/takesub-hero.svg"
 intro_video: "images/illustrations/takesub-hero.mp4"
 intro_image_absolute: true
@@ -24,6 +24,6 @@ beliefflair2: "images/misc/bg-flair2.png"
 beliefflair3: "images/misc/bg-flair3.png"
 ---
 
-# TakeSub - Fortnightly Meals From Local Restaurants.
+# TakeSub - Prepared Meals From Local Restaurants.
 
 Stock up with a box of signature meals, cooked by real chefs in Melbourne.
