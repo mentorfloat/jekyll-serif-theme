@@ -7,7 +7,7 @@ intro_video: "images/illustrations/takesub-hero.mp4"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 bg_videostatic: "images/illustrations/takesub-bg-video1-static.svg"
-bg_video: "images/illustrations/takesub-bg-video1.mp4"
+bg_video: "images/illustrations/takesub-bg-video2.mp4"
 bg_title: Experience Melbourne's cultural diversity through your palate
 bg_desc: We partner with restaurateurs and chefs from across Melbourne to bring you a unique home dining experience.
 bg_apptitle: Manage your everyday meals from any device

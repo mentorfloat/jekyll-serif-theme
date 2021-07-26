@@ -74,50 +74,35 @@
 }
 
 .strip-video {
-    position: absolute;
     left: 0;
-    display: block;
-    width: 100%;
+    width: 60%;
     height: inherit;
     -o-object-fit: cover;
     object-fit: cover;
+    clip-path: polygon(0% 0%, 88% 0, 98% 50%, 88% 100%, 0% 100%);
 }
 
 .appbg-section {
     align-items: center;
     display: flex;
-    height: 900px;
-    background-image: url(/images/illustrations/takesub-bg-appbg2.png);
+    height: 500px;
+    background-image: url(/images/illustrations/takesub-bg-appbg3.png),linear-gradient(102deg, #f7dfc2 0%, #f1e5d6 35%, #fdcb8e 100%);
     background-position-x: right;
     background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 10px -10px 25px rgba(0,0,0,0.6);
+    box-shadow: inset 1px -8px 25px rgba(0,0,0,0.6);
     margin-bottom: 100px;
-}
-
-.overlay {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    width: 100%;
-    height: inherit;
-    background-color: rgba(0,0,0,0.5);
+    background-attachment: fixed;
 }
 
 .strip-caption {
     z-index: 1;
     width: 23rem;
     text-align: left;
-    color: white;
     margin-left: 10vw;
     margin-right: auto;
     padding-left: 10px;
     border-left-style: solid;
     border-left-color: #E5261F;
-}
-
-.strip-caption p {
-    color: #cacbca;
 }
 
 .strip-caption2 {
@@ -198,6 +183,24 @@
 
     .strip-flairimg3 {
         left: 10vw;
+    }
+
+    .vid-section {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .strip-video {
+        width: 100%;
+        height: 280px;
+        clip-path: polygon(0% 0%, 78% 0, 98% 50%, 78% 100%, 0% 100%);
+    }
+
+    .strip-caption {
+        width:unset;
+        margin-left: 3vw !important;
+        margin-right: 16px;
+        margin-top: 60px;
     }
 
     .strip-caption2 {
