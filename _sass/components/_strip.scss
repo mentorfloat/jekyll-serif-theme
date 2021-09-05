@@ -13,6 +13,26 @@
     background-color: white;
     height: 400px;
 }
+.strip-sel-container {
+    overflow: hidden;
+    border-radius: 20px;
+    height: 562px;
+}
+.strip-sel-parent {
+    margin-left: -140px;
+}
+    .strip-sel-parent:hover .strip-selection {
+        opacity: 100%;
+        transition: ease;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+.strip-selection {
+    opacity: 50%;
+    margin-top: -585px;
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
 .strip-diagonal {
   transform: skewY(5deg);
   padding-bottom: 50px;

@@ -2,6 +2,9 @@ main:
   - name: "Home"
     url: "/"
     weight: 1
+    sublinks:
+    - name: Foodie
+      url: "/foodie/"
   #- name: "Services"
   #  url: "/services/"
   #  weight: 2

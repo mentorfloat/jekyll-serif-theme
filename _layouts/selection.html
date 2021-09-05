@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="intro-minimal pt-4">
+    <h1 class="feature-title">Authentic Meals by 
+    <span class="d-inline-flex">
+        Real Locals.
+        <img src="/images/misc/title-highlight.gif" />
+    </span>
+    </h1>
+</div>
+
+<div class="container pb-3 pt-3 pt-md-5 pb-md-5">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-6">
+            <h4 class="feature-title">{{ page.caption1 }}</h4>
+            <a>
+                <div class="strip-sel-container">
+                    <div class="strip-sel-parent">
+                        <img alt={{ page.caption1 }} src="{{ page.image1 | relURL }}" />
+                        <img class="strip-selection" src="{{ page.imagebg1 | relURL }}" />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-12 col-md-6 pt-3 pt-md-0">
+            <h4 class="feature-title">{{ page.caption2 }}</h4>
+            <a href="/foodie">
+                <div class="strip-sel-container">
+                    <div class="strip-sel-parent">
+                        <img alt={{ page.caption2 }} src="{{ page.image2 | relURL }}" />
+                        <img class="strip-selection" src="{{ page.imagebg2 | relURL }}" />
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
