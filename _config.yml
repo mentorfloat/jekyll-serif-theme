@@ -13,6 +13,8 @@ logo:
   desktop_height: "100px"
 
 footer:
+  logo: "images/logo/takesub-pwaicontrn.png"
+  tech1: "images/misc/poweredbystripe-white.svg"
   copyright_text: '&copy; Copyright 2021, TakeSub'
 
 seo:

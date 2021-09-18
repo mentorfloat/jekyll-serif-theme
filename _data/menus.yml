@@ -3,25 +3,50 @@ main:
     url: "/"
     weight: 1
     sublinks:
+    - name: Chef/Restaurateur
+      url: "/chef/"
     - name: Foodie
       url: "/foodie/"
-  #- name: "Services"
-  #  url: "/services/"
-  #  weight: 2
-  #- name: "Team"
-  #  url: "/team/"
-  #  weight: 3
-  - name: "Why TakeSub?"
-    url: "/about/"
+  - name: "Why Us?"
     weight: 2
-  #- name: "Contact"
-  #  url: "/contact/"
-  #  weight: 5
+    sublinks:
+    - name: Features for Chef
+      url: "/chef-features/"
+    - name: Features for Foodie
+      url: "/foodie-features/"
+  - name: "Join as Chef"
+    url: "/join/"
+    weight: 3
+  - name: "Get Meals"
+    url: "https://app.takesub.com.au/"
+    weight: 4
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Privacy"
+    sublinks:
+    - name: Chef/Restaurateur
+      url: "/chef/"
+    - name: Foodie
+      url: "/foodie/"
+
+footer2:
+  - name: "Why Us?"
+    weight: 1
+    sublinks:
+    - name: Features for Chef
+      url: "/chef-features/"
+    - name: Features for Foodie
+      url: "/foodie-features/"
+
+footer3:
+  - name: "Privacy Policy"
     url: "/privacy/"
+    weight: 1
+  - name: "Join as Chef"
+    url: "/join/"
     weight: 2
+  - name: "Get Meals"
+    url: "https://app.takesub.com.au/"
+    weight: 3

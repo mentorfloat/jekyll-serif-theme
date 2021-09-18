@@ -1,6 +1,88 @@
-<div class="sub-footer">
+﻿<div class="sub-footer">
   <div class="container">
-    <div class="row">
+      <div class="row">
+          <div class="col-2">
+              <div class="logo">
+                  <img height="80" alt="{{ site.title }}" src="{{ site.footer.logo | relative_url }}" />
+              </div>
+          </div>
+          <div class="col-2">
+              <ul class="copyright">
+                  {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+                  {% for item in footermenu %}
+                  {% if item.url %}
+                  <li>
+                      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                  </li>
+                  {% else %}
+                  <li>
+                      <a>{{ item.name }}</a>
+                  </li>
+                  {% endif %}
+                  {% if item.sublinks %}
+                  {% for sublink in item.sublinks %}
+                  <li class="ml-1">
+                      <a href="{{ sublink.url | relative_url }}">{{ sublink.name }}</a>
+                  </li>
+                  {% endfor %}
+                  {% else %}
+                  {% endif %}
+                  {% endfor %}
+              </ul>
+          </div>
+          <div class="col-2">
+              <ul class="copyright">
+                  {% assign footermenu2 = site.data.menus.footer2 | sort: 'weight'  %}
+                  {% for item in footermenu2 %}
+                  {% if item.url %}
+                  <li>
+                      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                  </li>
+                  {% else %}
+                  <li>
+                      <a>{{ item.name }}</a>
+                  </li>
+                  {% endif %}
+                  {% if item.sublinks %}
+                  {% for sublink in item.sublinks %}
+                  <li class="ml-1">
+                      <a href="{{ sublink.url | relative_url }}">{{ sublink.name }}</a>
+                  </li>
+                  {% endfor %}
+                  {% else %}
+                  {% endif %}
+                  {% endfor %}
+              </ul>
+          </div>
+          <div class="col-2">
+              <ul class="copyright">
+                  {% assign footermenu3 = site.data.menus.footer3 | sort: 'weight'  %}
+                  {% for item in footermenu3 %}
+                  {% if item.url %}
+                  <li>
+                      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                  </li>
+                  {% else %}
+                  <li>
+                      <a>{{ item.name }}</a>
+                  </li>
+                  {% endif %}
+                  {% if item.sublinks %}
+                  {% for sublink in item.sublinks %}
+                  <li class="ml-1">
+                      <a href="{{ sublink.url | relative_url }}">{{ sublink.name }}</a>
+                  </li>
+                  {% endfor %}
+                  {% else %}
+                  {% endif %}
+                  {% endfor %}
+              </ul>
+          </div>
+          <div class="col-4 d-flex justify-content-end">
+              <img height="30" src="{{ site.footer.tech1 | relative_url }}" />
+          </div>
+      </div>
+    <div class="row mt-5">
       <div class="col-12">
           <div class="sub-footer-inner">
               <div class="copyright">
@@ -12,9 +94,8 @@
               {% endif %}
               {% if site.footer.copyright_text %}
               <div class="copyright-right">
-                  <p><a href="/privacy">Privacy Policy</a></p>
                   <p>{{ site.footer.copyright_text }}</p>
-                  <p>Melbourne, Australia</p>
+                  <p>Made with ❤ in Melbourne</p>
               </div>
               {% endif %}
           </div>
