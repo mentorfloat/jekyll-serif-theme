@@ -20,9 +20,9 @@ footer:
 seo:
   meta_og_title: "TakeSub"
   meta_og_type: "website"
-  meta_og_url: "https://takesub.com"
-  meta_og_image: "https://takesub.com/images/misc/takesub-og-image.jpg"
-  meta_og_description: "TakeSub allows users to subscribe to local restaurants in Melbourne and receive signature meals, cooked by real chefs, straight to your doorsteps every fortnight."
+  meta_og_url: "https://takesub.com.au"
+  meta_og_image: "https://takesub.com.au/images/misc/takesub-og-image.jpg"
+  meta_og_description: "TakeSub allows users to purchase from restaurants and chefs in Melbourne and receive signature meals, cooked by real locals, straight to your doorsteps."
   meta_twitter_card: "summary"
   #meta_twitter_site: "@takesub"
   #meta_twitter_creator: "@takesub"

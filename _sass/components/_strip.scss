@@ -106,11 +106,10 @@
     align-items: center;
     display: flex;
     height: 500px;
-    background-image: url(/images/illustrations/takesub-bg-appbg3.png),linear-gradient(102deg, #f7dfc2 0%, #f1e5d6 35%, #fdcb8e 100%);
+    background-image: url(/images/illustrations/takesub-bg-appbg3.png),linear-gradient(102deg, #ffffff 0%, #f1e5d6 35%, #fff1e0 100%);
     background-position-x: right;
     background-repeat: no-repeat;
-    box-shadow: inset 1px -8px 25px rgba(0,0,0,0.6);
-    margin-bottom: 100px;
+    box-shadow: inset -6px -6px 15px rgba(0,0,0,0.2);
     background-attachment: fixed;
 }
 
@@ -145,7 +144,8 @@
 }
 
 .strip-bgimg {
-    width:380px;
+    width:250px;
+    margin-bottom:30px;
 }
 
 .strip-text span {
