@@ -1,5 +1,5 @@
 ---
-title: TakeSub - Fortnightly Meals From Local Restaurants
+title: TakeSub - Prepared Meals From Local Chefs and Restaurants
 layout: default
 bodyClass: page-home
 ---
@@ -50,7 +50,7 @@ bodyClass: page-home
 </div>-->
 
 <section class="strip vid-section">
-    <video class="strip-video" autoplay muted loop>
+    <video class="strip-video clip-right" autoplay muted loop>
         <source src="{{ page.bg_video | relURL }}" type="video/mp4">
         <img src="{{ page.bg_videostatic | relURL }}" />
     </video>
@@ -88,7 +88,36 @@ bodyClass: page-home
     </div>
 </section>
 
-<section class="strip">
+<div class="strip strip-white">
+    <div class="container strip-text pt-6 pb-6 pt-md-10 pb-md-10">
+        <h2 class="feature-title mb-3">Our Culinary Beliefs</h2>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <div class="strip-bgimg"><img src="{{ page.beliefimg1 | relURL }}" /></div>
+                    <h3>Redefine <span>convenience</span> meals</h3>
+                    <div class="feature-content">{{ page.belief1 }}</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <div class="strip-bgimg"><img src="{{ page.beliefimg2 | relURL }}" /></div>
+                    <h3>Narrate <span>stories</span> behind each meal</h3>
+                    <div class="feature-content">{{ page.belief2 }}</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <div class="strip-bgimg"><img src="{{ page.beliefimg3 | relURL }}" /></div>
+                    <h3>Empower <span>local</span> food community</h3>
+                    <div class="feature-content">{{ page.belief3 }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<section class="strip">
     <div class="container strip-text">
         <h2 class="strip-text-h2">Our Culinary Beliefs</h2>
         <div class="row strip-text-row">
@@ -121,6 +150,14 @@ bodyClass: page-home
                 <img class="strip-bgimg" src="{{ page.beliefimg3 | relURL }}" />
             </div>
         </div>
+    </div>
+</section>-->
+
+<section class="strip img-section mb-10">
+    <img src="{{ page.bg_ecoimg | relURL }}" />
+    <div class="strip-caption">
+        <h3>{{ page.bg_ecotitle }}</h3>
+        <p>{{ page.bg_ecodesc }}</p>
     </div>
 </section>
 

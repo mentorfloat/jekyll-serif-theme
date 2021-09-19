@@ -45,3 +45,25 @@
   padding-top: 100px;
   padding-bottom: 30px;
 }
+
+.intro-minimal {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        color: $black;
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    img {
+        margin-left: -260px;
+        margin-top:-110px;
+        margin-bottom:-120px;
+        z-index: -1;
+        height: 280px;
+        position: relative;
+    }
+}
+    

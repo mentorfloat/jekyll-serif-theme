@@ -1,17 +1,17 @@
 [
   {
     "title": "Customise your order online from our rotating menu.",
-    "description": "You can get as little as 5 meals per order. Pause, skip, do whatever suits!",
+    "description": "You can get as little as 3 meals per order from our chefs of the week. Remember, the meals are designed to stay fresh in the fridge so you can buy now and eat later!",
     "image": "images/features/takesub-icon-order.gif"
   },
   {
     "title": "Receive a box of chef-cooked meals.",
-    "description": "We deliver weekly in a temperature-controlled transport. You can track your order online, live!",
+    "description": "We deliver straight to your doorstep in a temperature-controlled transport. You can track your order online, live!",
     "image": "images/features/takesub-icon-deliver.gif"
   },
   {
     "title": "Heat up & bon appetit",
-    "description": "Our meals are curated by the chefs to suit so that you can experience the food that you love from your local chefs in the comfort of your home.",
+    "description": "Our meals are curated by the chefs to suit this model so that you can experience the food that you love from your local chefs in the comfort of your home.",
     "image": "images/features/takesub-icon-reheat.gif"
   }
 ]

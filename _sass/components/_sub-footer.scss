@@ -1,12 +1,12 @@
 .sub-footer {
     background: $sub-footer-background-color;
     color: $sub-footer-text-color;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     @include media-breakpoint-up(md) {
-        padding-top: 18px;
-        padding-bottom: 18px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .sub-footer-inner {
@@ -22,9 +22,10 @@
 
     .copyright {
         font-size: 14px;
+        list-style-type: none;
 
         a {
-            font-weight: bold;
+            font-weight: 550;
             color: #f8cecc;
         }
 
@@ -39,7 +40,7 @@
         text-align: right;
 
         a {
-            font-weight: bold;
+            font-weight: 550;
             color: #f8cecc;
         }
 

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Create an online shopfront for your brand.",
+    "description": "Our web app is built from the ground up to suit small medium food businesses. It is powered by Microsoft Azure and Stripe for a robust and secure order processing.",
+    "image": "images/features/takesub-icon-chefshop.gif"
+  },
+  {
+    "title": "Gain access to a commercial kitchen.",
+    "description": "Outgrown your home kitchen? Gain access to a commercial kitchen at an affordable hourly rate. No minimum commitments!",
+    "image": "images/features/takesub-icon-kitchen.gif"
+  },
+  {
+    "title": "Just pack them, we'll handle the logistics.",
+    "description": "We will pick up your packed meals at our agreed schedule and deliver them to your customers' doorstep in a temperature-controlled transport. Your customers can track their orders online, live!",
+    "image": "images/features/takesub-icon-deliver.gif"
+  }
+]
