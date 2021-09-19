@@ -7,13 +7,6 @@ main:
       url: "/chef/"
     - name: Foodie
       url: "/foodie/"
-  - name: "Why Us?"
-    weight: 2
-    sublinks:
-    - name: Features for Chef
-      url: "/chef-features/"
-    - name: Features for Foodie
-      url: "/foodie-features/"
   - name: "Join as Chef"
     url: "/join/"
     weight: 3
@@ -30,15 +23,6 @@ footer:
       url: "/chef/"
     - name: Foodie
       url: "/foodie/"
-
-footer2:
-  - name: "Why Us?"
-    weight: 1
-    sublinks:
-    - name: Features for Chef
-      url: "/chef-features/"
-    - name: Features for Foodie
-      url: "/foodie-features/"
 
 footer3:
   - name: "Privacy Policy"
