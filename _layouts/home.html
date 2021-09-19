@@ -1,5 +1,5 @@
 ---
-title: TakeSub - Fortnightly Meals From Local Restaurants
+title: TakeSub - Prepared Meals From Local Chefs and Restaurants
 layout: default
 bodyClass: page-home
 ---
@@ -50,7 +50,7 @@ bodyClass: page-home
 </div>-->
 
 <section class="strip vid-section">
-    <video class="strip-video" autoplay muted loop>
+    <video class="strip-video clip-right" autoplay muted loop>
         <source src="{{ page.bg_video | relURL }}" type="video/mp4">
         <img src="{{ page.bg_videostatic | relURL }}" />
     </video>
@@ -152,6 +152,14 @@ bodyClass: page-home
         </div>
     </div>
 </section>-->
+
+<section class="strip img-section mb-10">
+    <img src="{{ page.bg_ecoimg | relURL }}" />
+    <div class="strip-caption">
+        <h3>{{ page.bg_ecotitle }}</h3>
+        <p>{{ page.bg_ecodesc }}</p>
+    </div>
+</section>
 
 <div class="strip strip-bg">
     <div class="container">

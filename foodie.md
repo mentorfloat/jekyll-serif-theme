@@ -12,6 +12,9 @@ bg_title: Experience Melbourne's cultural diversity through your palate
 bg_desc: We partner with restaurateurs and chefs from across Melbourne to bring you a unique home dining experience.
 bg_apptitle: Manage your everyday meals from any device
 bg_appdesc: Login to your dashboard from our responsive cross-platform web app.
+bg_ecoimg: "/images/illustrations/ecopack.png"
+bg_ecotitle: Our commitment to the environment
+bg_ecodesc: Food packaging doesn't have to come at the cost of the environment. While Victoria's single-use plastic ban does not take effect until 2023, we encourage and help our chefs to transition into using biodegradable packaging for our meals.
 belief_title: TakeSub's Culinary Beliefs
 belief1: Eating well throughout the week can be convenient, affordable and enjoyable. Don't settle for a mass-produced meal.
 belief2: Explore the cultural stories through a curated selection of meals. Our partnered chefs change it up so that you can embark on new culinary journeys.
@@ -19,9 +22,6 @@ belief3: It is our committment as fellow food lovers to create a win-win relatio
 beliefimg1: "/images/illustrations/takesub-belief1.png"
 beliefimg2: "/images/illustrations/takesub-belief2.png"
 beliefimg3: "/images/illustrations/takesub-belief3.png"
-beliefflair1: "/images/misc/bg-flair1.png"
-beliefflair2: "/images/misc/bg-flair2.png"
-beliefflair3: "/images/misc/bg-flair3.png"
 ---
 
 # TakeSub - Prepared Meals From Local Chefs.

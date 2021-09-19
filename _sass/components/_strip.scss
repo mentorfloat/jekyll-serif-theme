@@ -90,7 +90,18 @@
     align-items: center;
     width: 100%;
     height: 28vw;
-    overflow: hidden;
+}
+
+.img-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    img {
+        max-width: 80%;
+        max-height: 630px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
 }
 
 .strip-video {
@@ -99,7 +110,25 @@
     height: inherit;
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+.clip-right {
     clip-path: polygon(0% 0%, 88% 0, 98% 50%, 88% 100%, 0% 100%);
+}
+
+.clip-polygon {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.shadow-wrap {
+    filter: drop-shadow(0px 13px 18px rgba(50, 50, 93, 0.25));
+    width: 60%;
+    height: inherit;
+    object-fit: cover;
+
+    video {
+        width: 100% !important;
+    }
 }
 
 .appbg-section {
@@ -113,12 +142,23 @@
     background-attachment: fixed;
 }
 
+.appbgchef-section {
+    align-items: center;
+    display: flex;
+    height: 500px;
+    background-image: url(/images/illustrations/takesub-bg-appbg3.png),linear-gradient(102deg, #ffffff 0%, #f1e5d6 35%, #fff1e0 100%);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    box-shadow: inset -6px -6px 15px rgba(0,0,0,0.2);
+    background-attachment: fixed;
+}
+
 .strip-caption {
     z-index: 1;
     width: 23rem;
     text-align: left;
     margin-left: 10vw;
-    margin-right: auto;
+    margin-right: 5px;
     padding-left: 10px;
     border-left-style: solid;
     border-left-color: #E5261F;
@@ -130,6 +170,17 @@
     text-align: left;
     margin-left: 10vw;
     margin-right: auto;
+    padding-left: 10px;
+    border-left-style: solid;
+    border-left-color: #E5261F;
+}
+
+.strip-caption3 {
+    z-index: 1;
+    width: 23rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 10vw;
     padding-left: 10px;
     border-left-style: solid;
     border-left-color: #E5261F;
@@ -205,15 +256,23 @@
         left: 10vw;
     }
 
-    .vid-section {
+    .vid-section, .img-section {
         height: 100%;
         flex-direction: column;
+
+        img {
+            width: 90%;
+        }
     }
 
     .strip-video {
         width: 100%;
         height: 280px;
         clip-path: polygon(0% 0%, 78% 0, 98% 50%, 78% 100%, 0% 100%);
+    }
+
+    .shadow-wrap {
+        width: 90%;
     }
 
     .strip-caption {
@@ -232,15 +291,12 @@
 @media only screen and (max-width: 1024px) {
     .vid-section {
         height: 400px;
-    }
-
-    .strip-caption {
-        text-align: center;
-        margin-left: auto;
-    }
-
-    .vid-section {
         justify-content: center;
+    }
+
+    .img-section img {
+        max-width: 60%;
+        margin-right: 20px;
     }
 
     .strip-bgimg {
@@ -262,7 +318,12 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
+    .strip-caption {
+        text-align: center;
+        margin-left: 5px;
+    }
+
     .strip-caption2 {
         background-color: #ffffffcc;
         border-end-end-radius: 50px;

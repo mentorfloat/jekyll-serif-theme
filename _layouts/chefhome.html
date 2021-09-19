@@ -1,0 +1,109 @@
+---
+title: TakeSub - Empowering Local Chefs
+layout: default
+bodyClass: page-home
+---
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                {{ content }}
+                {% if site.homepage.show_call_box %}
+                {% include call.html show_button=false %}
+                {% endif %}
+            </div>
+            {% if page.intro_image %}
+            <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+                <video class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" autoplay muted loop>
+                    <source src="{{ page.intro_video | relURL }}" type="video/mp4">
+                    <img alt={{ page.title }} src="{{ page.intro_image | relURL }}" />
+                </video>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% if site.data.featureschef %}
+<div class="strip strip-white">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+        <h2 class="feature-title mb-3">How Takesub Helps Local Food Businesses?</h2>
+        <div class="row justify-content-center">
+            {% for feature in site.data.featureschef %}
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    {% if feature.image %}
+                    <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image | relative_url }}" /></div>
+                    {% endif %}
+                    <h4>{{ feature.title }}</h4>
+                    <div class="feature-content">{{ feature.description }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<section class="strip img-section mt-4 mb-10">
+    <img src="{{ page.bg_appimg | relURL }}" />
+    <div class="strip-caption">
+        <h3>{{ page.bg_apptitle }}</h3>
+        <p>{{ page.bg_appdesc }}</p>
+    </div>
+</section>
+
+<section class="strip vid-section my-sm-0 my-8">
+    <div class="strip-caption order-lg-1 order-2">
+        <h3>{{ page.bg_title }}</h3>
+        <p>{{ page.bg_desc }}</p>
+    </div>
+    <div class="shadow-wrap order-lg-2 order-1">
+        <video class="strip-video clip-polygon" autoplay muted loop>
+            <source src="{{ page.bg_video | relURL }}" type="video/mp4">
+            <img src="{{ page.bg_videostatic | relURL }}" />
+        </video>
+    </div>
+</section>
+
+<div class="strip strip-white">
+    <div class="container strip-text pt-6 pb-6 pt-md-10 pb-md-10">
+        <h2 class="feature-title mb-3">{{ page.belief_title }}</h2>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <div class="strip-bgimg"><img src="{{ page.beliefimg1 | relURL }}" /></div>
+                    <h3><span>Local</span> team that you can rely on</h3>
+                    <div class="feature-content">{{ page.belief1 }}</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <div class="strip-bgimg"><img src="{{ page.beliefimg2 | relURL }}" /></div>
+                    <h3>Expand your business <span>network</span></h3>
+                    <div class="feature-content">{{ page.belief2 }}</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <div class="strip-bgimg"><img src="{{ page.beliefimg3 | relURL }}" /></div>
+                    <h3><span>Win-win</span> Relationship</h3>
+                    <div class="feature-content">{{ page.belief3 }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="strip strip-bg">
+    <div class="container">
+        <div class="row strip-center">
+            <div class="col-12 col-md-7 col-lg-6 order-1 order-md-1">
+            </div>
+            <div class="col-12 col-md-5 col-lg-6 order-2 order-md-2">
+                {% include call.html show_button=false %}
+            </div>
+        </div>
+    </div>
+</div>
