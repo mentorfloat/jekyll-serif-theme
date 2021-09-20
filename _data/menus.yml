@@ -3,9 +3,9 @@ main:
     url: "/"
     weight: 1
     sublinks:
-    - name: Chef/Restaurateur
+    - name: I'm a Chef
       url: "/chef/"
-    - name: Foodie
+    - name: I'm a Foodie
       url: "/foodie/"
   - name: "Join as Chef"
     url: "/join/"

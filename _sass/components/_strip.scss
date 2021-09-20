@@ -20,6 +20,11 @@
 }
 .strip-sel-parent {
     margin-left: -140px;
+    margin-right: auto;
+
+    img{
+        width: auto;
+    }
 }
     .strip-sel-parent:hover .strip-selection {
         opacity: 100%;
