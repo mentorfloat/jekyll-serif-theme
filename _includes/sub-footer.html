@@ -11,17 +11,17 @@
                   {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
                   {% for item in footermenu %}
                   {% if item.url %}
-                  <li>
+                  <li class="my-1 my-md-0">
                       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
                   </li>
                   {% else %}
-                  <li>
+                  <li class="my-1 my-md-0">
                       <a>{{ item.name }}</a>
                   </li>
                   {% endif %}
                   {% if item.sublinks %}
                   {% for sublink in item.sublinks %}
-                  <li class="ml-1">
+                  <li class="ml-0 ml-md-1 my-1 my-md-0">
                       <a href="{{ sublink.url | relative_url }}">{{ sublink.name }}</a>
                   </li>
                   {% endfor %}
@@ -35,17 +35,17 @@
                   {% assign footermenu3 = site.data.menus.footer3 | sort: 'weight'  %}
                   {% for item in footermenu3 %}
                   {% if item.url %}
-                  <li>
+                  <li class="my-1 my-md-0">
                       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
                   </li>
                   {% else %}
-                  <li>
+                  <li class="my-1 my-md-0">
                       <a>{{ item.name }}</a>
                   </li>
                   {% endif %}
                   {% if item.sublinks %}
                   {% for sublink in item.sublinks %}
-                  <li class="ml-1">
+                  <li class="ml-0 ml-md-1 my-1 my-md-0">
                       <a href="{{ sublink.url | relative_url }}">{{ sublink.name }}</a>
                   </li>
                   {% endfor %}
@@ -58,7 +58,7 @@
               <img height="30" src="{{ site.footer.tech1 | relative_url }}" />
           </div>
       </div>
-    <div class="row mt-5">
+    <div class="row mt-3 mt-md-5">
       <div class="col-12">
           <div class="sub-footer-inner">
               <div class="copyright">

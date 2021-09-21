@@ -267,6 +267,8 @@
 
         img {
             width: 90%;
+            max-width: unset !important;
+            margin-right: unset !important;
         }
     }
 
@@ -290,6 +292,28 @@
     .strip-caption2 {
         margin-left:3vw;
         margin-right: 16px;
+    }
+
+    .strip-sel-container {
+        height: 70vw;
+    }
+
+    .strip-sel-parent {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: inherit;
+        margin-left: 0;
+
+        .strip-sel-img {
+            display: none;
+        }
+
+        img {
+            height: inherit;
+            margin-top: 0;
+            opacity: 100%;
+        }
     }
 }
 
