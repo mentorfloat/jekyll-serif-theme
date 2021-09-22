@@ -5,17 +5,26 @@
             clear: left;
             width: 100%;
         }
-        #mc_embed_signup .button {
-            background-color: #E5261F;
-        }
-        #mc_embed_signup .button:hover {
-            background-color: #ea524d;
-        }
+
+            #mc_embed_signup .button {
+                background-color: #E5261F;
+            }
+
+                #mc_embed_signup .button:hover {
+                    background-color: #ea524d;
+                }
         /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
 </head>
 
+{% if include.show_custom %}
+<div class="call call-action-box">
+    <label class="call-label">We're onboarding new businesses!</label>
+    <button class="button-57 mb-1" role="button" onclick="location.href='mailto:chef@takesub.com.au'"><span class="text">Reach out</span><span>Let's go!</span></button>
+    <p class="call-email">Only need parts of our service? No worries! We lower our rates accordingly and even our decked out package is affordable compared to UberEats, Doordash, Menulog, etc.</p>
+</div>
+{% else %}
 <div class="call">
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
@@ -52,3 +61,4 @@
     {% endif %}
     {% endif %}
 </div>
+{% endif %}
