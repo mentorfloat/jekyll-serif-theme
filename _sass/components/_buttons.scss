@@ -8,7 +8,7 @@
   background: $primary;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #ffffff;
@@ -23,6 +23,34 @@
     text-decoration: none;
   }
 }
+
+.button-slim {
+    background-color: #e5261f !important;
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #aaa;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+    .button-slim:hover {
+        background-color: #ea524d !important;
+        cursor: pointer;
+        transform: translateY(-1px);
+    }
 
 .button-57 {
     position: relative;

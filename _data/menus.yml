@@ -7,6 +7,9 @@ main:
       url: "/chef/"
     - name: I'm a Foodie
       url: "/foodie/"
+  - name: "Services"
+    url: "/services"
+    weight: 2
   - name: "Join as Chef"
     url: "/join/"
     weight: 3
@@ -23,6 +26,9 @@ footer:
       url: "/chef/"
     - name: Foodie
       url: "/foodie/"
+  - name: "Services"
+    url: "/services"
+    weight: 2
 
 footer3:
   - name: "Privacy Policy"

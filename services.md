@@ -1,11 +1,12 @@
 ---
 title: Services
 layout: services
-intro_image: "images/illustrations/reading.svg"
+intro_image: "images/illustrations/takesub-heroservice.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Services that grow with your business
+# Craft the perfect service package for your business
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Whether you are a budding home chef looking to make a statement or an established local restaurant, there is a place for you with TakeSub.
+Pick and only pay for what you need.

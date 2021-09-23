@@ -41,6 +41,12 @@
   }
 }
 
+.intro-padding {
+    @include media-breakpoint-up(md) {
+        padding-top: 200px;
+    }
+}
+
 .intro-small {
   padding-top: 100px;
   padding-bottom: 30px;
@@ -66,4 +72,3 @@
         position: relative;
     }
 }
-    
