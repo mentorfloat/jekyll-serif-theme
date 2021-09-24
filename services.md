@@ -1,5 +1,5 @@
 ---
-title: Services
+title: TakeSub | Services
 layout: services
 intro_image: "images/illustrations/takesub-heroservice.svg"
 intro_image_absolute: true

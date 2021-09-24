@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Secure Online Payment",
+    "subtitle": "Included with Online Shopfront",
+    "description": "Take customer orders online easily. Payments are processed securely by Stripe, a leading payment infrastructure company. Setup is straightforward and once setup, you can receive processed payments in real-time on your connected Stripe account.",
+    "image": "images/features/takesub-feature-stripe.svg",
+    "weight": 1
+  },
+  {
+    "title": "Delivery Coverage",
+    "subtitle": "Included with Online Shopfront",
+    "description": "Define where you want to deliver your meals and only allow orders from these suburbs. You can set your self-managed delivery coverage even if you don't use our Last-mile Delivery service.",
+    "image": "images/features/takesub-feature-map.svg",
+    "weight": 2
+  },
+  {
+    "title": "Promotion Tools",
+    "subtitle": "Included with Online Shopfront",
+    "description": "Set discount coupon codes for your promotion campaigns to promote new products or grow your audience.",
+    "image": "images/features/takesub-feature-promotion.svg",
+    "weight": 3
+  },
+  {
+    "title": "Council-compliant Kitchen",
+    "subtitle": "Included with Commercial Kitchen",
+    "description": "Access a shared kitchen that is already approved for commercial use by the local council. The kitchens are well equipped and are located around central Melbourne. Availability is limited so please contact us ahead to discuss.",
+    "image": "images/features/takesub-feature-kitchen.svg",
+    "weight": 6
+  },
+  {
+    "title": "Temporary Cold and Dry Storage",
+    "subtitle": "Included with Commercial Kitchen",
+    "description": "Store your ingredients and prepared meals in the complimentary storage area. Businesses can be allocated a storage section to temporarily store any cold or dry items. Availability is limited so please contact us ahead to discuss.",
+    "image": "images/features/takesub-feature-storage.svg",
+    "weight": 7
+  },
+  {
+    "title": "Refrigerated Delivery",
+    "subtitle": "Included with Last-mile Delivery",
+    "description": "Our delivery vans are refrigerated down to -18 degree Celsius and comes with electric standby to ensure that your products are always kept at the right temperature throughout the journey.",
+    "image": "images/features/takesub-feature-delivery.svg",
+    "weight": 4
+  },
+  {
+    "title": "Delivery Notifications",
+    "subtitle": "Included with Last-mile Delivery",
+    "description": "We use a leading route planning software for our delivery optimisation and this allows us to send delivery notifications to your customers. Your customers can also track the precise location of our drivers online once they are 60 minutes away.",
+    "image": "images/features/takesub-feature-email.svg",
+    "weight": 5
+  },
+  {
+    "title": "Preorder Window Settings",
+    "subtitle": "Included with Batch Order Processing",
+    "description": "Define when you want to take and deliver orders. We can also work with you to create your own unique rules.",
+    "image": "images/features/takesub-feature-window.svg",
+    "weight": 8
+  },
+  {
+    "title": "Order List",
+    "subtitle": "Included with Batch Order Processing",
+    "description": "At the end of each preorder window, receive a list of the meals ordered and their respective quantity so that you can start preparing for the cook.",
+    "image": "images/features/takesub-feature-summary.svg",
+    "weight": 9
+  },
+  {
+    "title": "Individual Packing Slip",
+    "subtitle": "Included with Batch Order Processing",
+    "description": "In addition to the order list, receive packing slips that you can print out for your packing staff and delivery team. We can also work with you to ensure that the format is compatible with your thermal printer.",
+    "image": "images/features/takesub-feature-slip.svg",
+    "weight": 10
+  },
+  {
+    "title": "Subscription Model",
+    "subtitle": "Coming Soon",
+    "description": "Define your own subscription plans and let your customers subscribe to your meals. Create a recurring revenue stream!",
+    "image": "images/features/takesub-feature-sub.svg",
+    "weight": 11
+  }
+]
